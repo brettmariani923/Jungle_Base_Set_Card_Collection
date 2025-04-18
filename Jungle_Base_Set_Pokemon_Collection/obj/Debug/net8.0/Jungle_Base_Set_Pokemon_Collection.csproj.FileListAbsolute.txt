@@ -12,3 +12,4 @@ C:\Users\brett\source\repos\Jungle_Base_Set_Pokemon_Collection\Jungle_Base_Set_P
 C:\Users\brett\source\repos\Jungle_Base_Set_Pokemon_Collection\Jungle_Base_Set_Pokemon_Collection\obj\Debug\net8.0\Jungle_Base_Set_Pokemon_Collection.pdb
 C:\Users\brett\source\repos\Jungle_Base_Set_Pokemon_Collection\Jungle_Base_Set_Pokemon_Collection\obj\Debug\net8.0\Jungle_Base_Set_Pokemon_Collection.genruntimeconfig.cache
 C:\Users\brett\source\repos\Jungle_Base_Set_Pokemon_Collection\Jungle_Base_Set_Pokemon_Collection\obj\Debug\net8.0\ref\Jungle_Base_Set_Pokemon_Collection.dll
+C:\Users\brett\source\repos\Jungle_Base_Set_Pokemon_Collection\Jungle_Base_Set_Pokemon_Collection\obj\Debug\net8.0\Jungle_Base_Set_Pokemon_Collection.sourcelink.json

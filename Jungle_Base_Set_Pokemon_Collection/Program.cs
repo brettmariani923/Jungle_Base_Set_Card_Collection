@@ -15,6 +15,7 @@ public class Program
                 break;
 
             Pokemon.AddedToCollection(pokemonName);
+            Console.WriteLine();
 
             Pokemon.RemainingPokemon();
 

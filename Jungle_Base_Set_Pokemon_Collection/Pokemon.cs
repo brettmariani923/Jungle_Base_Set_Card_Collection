@@ -7,7 +7,7 @@ namespace Jungle_Base_Set_Pokemon_Collection
 {
    public class Pokemon
     {
-        public static List<string> pokemonNames = new List<string>();
+        public static List<string> wantedList = new List<string>();
 
         public static void LoadPokemonList()
         {
@@ -15,11 +15,11 @@ namespace Jungle_Base_Set_Pokemon_Collection
 
             if (File.Exists(filePath))
             {
-                pokemonNames = File.ReadAllLines(filePath).ToList();
+                wantedList = File.ReadAllLines(filePath).ToList();
             }
             else
             {
-                pokemonNames = new List<string>
+                wantedList = new List<string>
                 {
                     "Clefable*", "Electrode*", "Flareon*", "Jolteon*", "Kangaskhan*",
                     "Mr. Mime*", "Nidoqueen*", "Pidgeot*", "Pinsir*", "Scyther*",
@@ -41,18 +41,18 @@ namespace Jungle_Base_Set_Pokemon_Collection
         {
             string filePath = "pokemon_list.txt";
 
-            File.WriteAllLines(filePath, pokemonNames);
+            File.WriteAllLines(filePath, wantedList);
         }
 
         public static void AddedToCollection(string name)
         {
             string cleanedName = name.Trim();
 
-            string match = pokemonNames.FirstOrDefault(p => string.Equals(p, cleanedName, StringComparison.OrdinalIgnoreCase));
+            string match = wantedList.FirstOrDefault(p => string.Equals(p, cleanedName, StringComparison.OrdinalIgnoreCase));
 
             if (match != null)
             {
-                pokemonNames.Remove(match);
+                wantedList.Remove(match);
                 Console.WriteLine($"{match} has been added to your collection and removed from the wanted list!");
             }
             else
@@ -64,9 +64,10 @@ namespace Jungle_Base_Set_Pokemon_Collection
         public static void RemainingPokemon()
         {
             Console.WriteLine("Pokemon Cards remaining:");
-            foreach (var name in pokemonNames)
+            foreach (var name in wantedList)
             {
                 Console.WriteLine(name);
+                Console.WriteLine();
             }
         }
     }

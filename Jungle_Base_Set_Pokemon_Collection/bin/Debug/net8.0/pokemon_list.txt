@@ -59,4 +59,3 @@ Oddish
 Paras
 Pikachu
 Rhyhorn
-Spearow

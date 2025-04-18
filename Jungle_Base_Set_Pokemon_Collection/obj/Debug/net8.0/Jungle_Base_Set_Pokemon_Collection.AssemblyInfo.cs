@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jungle_Base_Set_Pokemon_Collection")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a3c3293f42af5f26c664294355d149579c01803")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jungle_Base_Set_Pokemon_Collection")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jungle_Base_Set_Pokemon_Collection")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
